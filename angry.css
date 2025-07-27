@@ -1,0 +1,147 @@
+body{ margin: 0;
+padding: 0;
+}
+header{ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0JHqDTt89XFmrRyvOjhTjNIOqW3elaXqKcw&s); 
+height: 7rem;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+position: sticky;
+top: 0;
+z-index: 55;
+}
+.blood{ 
+height: 5rem;
+width: 5rem;
+border-radius: 100%;
+border: 2px solid yellow;
+}
+.nav a {color: black;
+text-decoration: none;
+margin: 1rem;
+}
+.nav{
+    background-color: red;
+    padding: 1rem;
+    border-radius: 2rem;
+    background: rgba(255, 255, 255, 0.3);
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.nav a:hover{
+    background: linear-gradient(90deg,  red, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.list{ display: flex; flex-direction: row-reverse;}
+.socialmedia :nth-child(1){
+    background-color: rgb(248, 228, 11);
+} 
+.socialmedia :nth-child(2){
+    background-color: rgb(30, 158, 30);
+}
+.socialmedia :nth-child(3) {
+    background-color: rgb(171, 21, 143);
+   
+}
+.socialmedia a { 
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 0 0.5rem;
+    transition: 0.7s ease;
+
+    
+}
+.socialmedia a:hover {
+transform: scale(1.1);
+
+}
+#gallery a:hover { 
+    transform: scale(1.1);
+}
+#About { border: double 6px;
+border-radius: 1rem;
+margin: 2rem;
+padding: 2rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.socialmedia{ margin-top: 1rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+#gallery{ display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+#gallery img {
+    margin: 1rem 5rem;
+      max-width: 25rem;
+      height: 20rem;
+    width: 90%;
+    border-radius: 2rem;
+    object-fit: cover;
+    transition: 0.7s ease;
+    z-index: 21;
+}
+
+#gallery img:hover { 
+    transform: scale(1.1);
+}
+.mygallery{
+    text-align: center;
+}
+
+
+table{ 
+    border: 2px solid black;
+    
+}
+td{
+    border: solid 2px black;
+}
+th{
+    border: solid 2px black;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+table{
+  
+height: 50rem;
+width: 60rem;
+text-align: center;
+}
+
+.weekly{ 
+    text-align: center;
+}
+input{
+    height: 2rem;
+    width: 70rem;
+  
+}
+
+.contact {
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: green;
+}
